@@ -1,0 +1,53 @@
+.kalimba
+{
+	background-image: url("../resources/imgs/Diseño\ sin\ título.svg");
+}
+
+.kalimba-keys
+{
+	display: flex;
+	justify-content: center;
+}
+
+.key
+{
+	display: flex;
+	position: relative;
+	margin: 0 20px;
+	width: 49px;
+	height: 300px;
+	border-radius: 30px;
+	background-color: gray;
+	top: -30px;
+	left: 0;
+	background-image: url("../resources/imgs/kalimba_key.png");
+	justify-content: center;
+    align-items: flex-end;
+}
+
+#D, #E
+{
+	top: -60px;
+}
+
+#F, #G
+{
+	top: -90px;
+}
+
+#A, #B
+{
+	top: -120px;
+}
+
+#C4
+{
+	top: -150px;
+}
+@media only screen and (orientation:portrait)
+{
+	.kalimba
+	{
+		transform: rotate(90deg);
+	}
+}
