@@ -7,13 +7,21 @@
 {
 	display: flex;
 	justify-content: center;
+	margin: 0 5rem;
+}
+
+.frame
+{
+	width: 12.5%;
+	margin: 0px;
+	display: flex;
+	justify-content: center;
 }
 
 .key
 {
 	display: flex;
 	position: relative;
-	margin: 0 20px;
 	width: 49px;
 	height: 300px;
 	border-radius: 30px;
