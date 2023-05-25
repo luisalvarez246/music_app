@@ -79,3 +79,16 @@
 {
 	.turn{display: none;}
 }
+
+@media screen and (min-width: 1000px)
+{
+	.kalimba-keys
+	{
+		height: 100vh;
+	}
+
+	.key
+	{
+		height: 60%;
+	}
+}
