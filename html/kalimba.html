@@ -5,6 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="../css/style-kalimba.css">
+	<script src="../js/kalimba.js"></script>
 	<title>Kalimba</title>
 </head>
 <body class="kalimba">
@@ -13,45 +14,46 @@
 	</section>
 	<section class="kalimba-keys">
 		<figure class="frame">
-			<div class="key" id="C4">
+			<div class="key" id="C5" onclick="playSound(this.id)" onpointerdown="activeKey(this.id)" onpointerup="inactiveKey(this.id)">
 				<p>C</p>
 			</div>
 		</figure>
 		<figure class="frame">
-			<div class="key" id="A">
+			<div class="key" id="A" onclick="playSound(this.id)" onpointerdown="activeKey(this.id)" onpointerup="inactiveKey(this.id)">
 				<p>A</p>
 			</div>
 		</figure>
 		<figure class="frame">
-			<div class="key" id="F">
+			<div class="key" id="F" onclick="playSound(this.id)" onpointerdown="activeKey(this.id)" onpointerup="inactiveKey(this.id)">
 				<p>F</p>
 			</div>
 		</figure>
 		<figure class="frame">
-			<div class="key" id="D">
+			<div class="key" id="D" onclick="playSound(this.id)" onpointerdown="activeKey(this.id)" onpointerup="inactiveKey(this.id)">
 				<p>D</p>
 			</div>
 		</figure>
 		<figure class="frame">
-			<div class="key" id="C">
+			<div class="key" id="C" onclick="playSound(this.id)" onpointerdown="activeKey(this.id)" onpointerup="inactiveKey(this.id)">
 				<p>C</p>
 			</div>
 		</figure>
 		<figure class="frame">
-			<div class="key" id="E">
+			<div class="key" id="E" onclick="playSound(this.id)" onpointerdown="activeKey(this.id)" onpointerup="inactiveKey(this.id)">
 				<p>E</p>
 			</div>
 		</figure>
 		<figure class="frame">
-			<div class="key" id="G">
+			<div class="key" id="G" onclick="playSound(this.id)" onpointerdown="activeKey(this.id)" onpointerup="inactiveKey(this.id)">
 				<p>G</p>
 			</div>
 		</figure>
 		<figure class="frame">
-			<div class="key" id="B">
+			<div class="key" id="B" onclick="playSound(this.id)" onpointerdown="activeKey(this.id)" onpointerup="inactiveKey(this.id)">
 				<p>B</p>
 			</div>
 		</figure>
 	</section>
+	<script>keyboardListener()</script>
 </body>
 </html>
