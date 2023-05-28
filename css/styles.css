@@ -17,10 +17,24 @@ h3, .p1 {
 #pricing {
   border-radius: 25px;
   width: fit-content;
-  padding: 0.5% 1%;
+  padding: 1.5% 5%;
   background-color: white;
   color: black;
   font-weight: 900;
+}
+
+header, div, footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 7%;
+}
+
+.circleImg {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
 }
 
 html {
