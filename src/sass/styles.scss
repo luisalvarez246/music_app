@@ -1,0 +1,6 @@
+@use 'sections.scss';
+@import '_variables.scss';
+
+body {
+    background-color: $backgroundColor;
+}
