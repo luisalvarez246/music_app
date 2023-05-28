@@ -1,5 +1,13 @@
 $background: linear-gradient(#0A2F44, #557C93);
 
+@mixin whiteText ($size, $weight) {
+    font-size: $size;
+    font-weight: $weight;
+    text-align: center;
+    color: white;  
+    font-family: "Fira Sans", sans-serif;
+}
+
 @mixin buttonStyles ($bgColor, $textColor, $weight) {
     border-radius: 25px;
     width: fit-content;

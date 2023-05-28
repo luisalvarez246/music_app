@@ -1,6 +1,12 @@
 @import '_variables.scss';
 
+h3, .p1 {
+    @include whiteText (1.2rem, bolder);
+}
 
+.p2 {
+    @include whiteText (1rem, normal);
+}
 
 #pricing {
     @include buttonStyles (white, black, 900);
