@@ -15,9 +15,9 @@ h3, .p1 {
 }
 
 #pricing {
-  border-radius: 25px;
+  border-radius: 24px;
   width: fit-content;
-  padding: 1.5% 5%;
+  padding: 12px 16px;
   background-color: white;
   color: black;
   font-weight: 900;
@@ -28,7 +28,11 @@ header, div, footer {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  padding: 7%;
+  gap: 24px;
+}
+
+header {
+  margin-top: 5%;
 }
 
 .circleImg {
@@ -37,10 +41,26 @@ header, div, footer {
   width: 100px;
 }
 
+@media only screen and (min-width: 481px) {
+  main {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 120px;
+    padding: 3%;
+  }
+  header h3 {
+    font-size: 2.5rem;
+  }
+  footer h3 {
+    font-size: 1.8rem;
+  }
+}
 body {
   background: linear-gradient(#0A2F44, #557C93);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 /*# sourceMappingURL=styles.css.map */
