@@ -1,1 +1,10 @@
-$backgroundColor: rgb(179, 184, 190);
+$background: linear-gradient(#0A2F44, #557C93);
+
+@mixin buttonStyles ($bgColor, $textColor, $weight) {
+    border-radius: 25px;
+    width: fit-content;
+    padding: .5% 1%;
+    background-color: $bgColor;
+    color: $textColor;
+    font-weight: $weight;
+}

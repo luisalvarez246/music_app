@@ -1,0 +1,7 @@
+@import '_variables.scss';
+
+
+
+#pricing {
+    @include buttonStyles (white, black, 900);
+}

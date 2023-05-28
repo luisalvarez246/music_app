@@ -1,5 +1,14 @@
+#pricing {
+  border-radius: 25px;
+  width: fit-content;
+  padding: 0.5% 1%;
+  background-color: white;
+  color: black;
+  font-weight: 900;
+}
+
 body {
-  background-color: rgb(179, 184, 190);
+  background: linear-gradient(#0A2F44, #557C93);
 }
 
 /*# sourceMappingURL=styles.css.map */
