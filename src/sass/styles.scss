@@ -1,13 +1,10 @@
 @use 'sections.scss';
 @import '_variables.scss';
 
-html {
-    height: 100%;
-}
-
 body {
     background: $background;
-    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 

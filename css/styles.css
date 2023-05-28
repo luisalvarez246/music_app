@@ -37,13 +37,10 @@ header, div, footer {
   width: 100px;
 }
 
-html {
-  height: 100%;
-}
-
 body {
   background: linear-gradient(#0A2F44, #557C93);
-  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=styles.css.map */
