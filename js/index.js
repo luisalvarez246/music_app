@@ -1,6 +1,6 @@
 const nav = document.querySelector("#nav");
-const open = document.querySelector("#open");
-const clous = document.querySelector("#clous");
+const open = document.querySelector("#openMenu");
+const close = document.querySelector("#closeMenu");
 
 open.addEventlistener("click", () => {
     nav.classList.add("visible");
