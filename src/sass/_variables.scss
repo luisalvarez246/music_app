@@ -16,3 +16,9 @@ $background: linear-gradient(#0A2F44, #557C93);
     color: $textColor;
     font-weight: $weight;
 }
+
+@mixin instrumentButton () {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
