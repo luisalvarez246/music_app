@@ -1,1 +1,1 @@
-# music_app
+# Código para la landing page
