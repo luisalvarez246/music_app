@@ -16,6 +16,14 @@ h3, .p1 {
     @include buttonStyles (white, black, 900);
 }
 
+
+body {
+    background: $background;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 header, div, footer {
     display: flex;
     flex-direction: column;

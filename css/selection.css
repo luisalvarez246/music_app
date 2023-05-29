@@ -29,6 +29,13 @@ h3, .p1 {
   font-weight: 900;
 }
 
+body {
+  background: linear-gradient(#0A2F44, #557C93);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 header, div, footer {
   display: flex;
   flex-direction: column;
@@ -66,11 +73,5 @@ header {
     font-size: 1.8rem;
   }
 }
-body {
-  background: linear-gradient(#0A2F44, #557C93);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=selection.css.map */
