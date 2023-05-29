@@ -1,4 +1,4 @@
-import { goToPage } from "./index";
+import { goToPage } from "./index.js";
 
 document.getElementById("drumButton").addEventListener("click", (event) => {
     goToPage("./drums.html")

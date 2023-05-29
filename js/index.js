@@ -1,3 +1,3 @@
-export let goToPage = (url) => {
+export const goToPage = (url) => {
     window.location.href = url;
 }
