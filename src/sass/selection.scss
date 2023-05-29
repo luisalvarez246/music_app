@@ -36,15 +36,21 @@ header {
     margin-top: 5%;
 }
 
-#drumButton {
-    background-image: url("./resources/images/drums.jpg");
-    background-size: cover;
+.circleImg {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
 }
 
-#kalimbaButton {
-    background-image: url("./resources/images/kalimba.jpg");
-    background-size: cover;
-}
+// #drumButton {
+//     background-image: url("./resources/images/drums.jpg");
+//     background-size: cover;
+// }
+
+// #kalimbaButton {
+//     background-image: url("./resources/images/kalimba.jpg");
+//     background-size: cover;
+// }
 
 @media only screen and (min-width: 481px) {
     main {

@@ -18,6 +18,9 @@ h3, .p1 {
   border-radius: 50%;
   width: 100px;
   height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #pricing {
@@ -48,14 +51,10 @@ header {
   margin-top: 5%;
 }
 
-#drumButton {
-  background-image: url("./resources/images/drums.jpg");
-  background-size: cover;
-}
-
-#kalimbaButton {
-  background-image: url("./resources/images/kalimba.jpg");
-  background-size: cover;
+.circleImg {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
 }
 
 @media only screen and (min-width: 481px) {
