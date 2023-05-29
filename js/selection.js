@@ -1,9 +1,9 @@
 import { goToPage } from "./index.js";
 
 document.getElementById("drumButton").addEventListener("click", (event) => {
-    goToPage("./drums.html")
+    goToPage("./../pages/drums.html")
 })
 
 document.getElementById("kalimbaButton").addEventListener("click", (event) => {
-    goToPage("./kalimba.html")
+    goToPage("./../pages/kalimba.html")
 })
