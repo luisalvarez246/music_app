@@ -2,6 +2,7 @@
 {
 	background-image: url("../resources/imgs/wood_bg.svg");
 	height: 100vh;
+	font-family: "Fira Sans";
 }
 
 .kalimba-keys
@@ -67,6 +68,21 @@
 	width: 100%;
 }
 
+.legend
+{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	margin: 2rem;
+	color: white;
+}
+
+.legend tr, td, th
+{
+	border: 1px solid white;
+	padding: 0.3rem;
+}
+
 @media only screen and (orientation:portrait)
 {
 	.kalimba
@@ -81,6 +97,7 @@
 
 	.kalimba-keys{display: none;}
 	.logo-kalimba{display: none;}
+	.legend{display: none;}
 
 	.turn h2
 	{
@@ -93,6 +110,7 @@
 @media only screen and (orientation:landscape)
 {
 	.turn{display: none;}
+	.legend{display: none;}
 }
 
 @media screen and (min-width: 1000px)
@@ -106,4 +124,6 @@
 	{
 		height: 60%;
 	}
+
+	.legend{display: block;}
 }
