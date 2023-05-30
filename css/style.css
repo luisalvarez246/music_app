@@ -1,33 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@0;1&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
 
 * {
-
+    
     font-family: 'Fira Sans';
   }
 
   body{
   
+  margin:0;
   background-image: linear-gradient(180deg,#08203e 0%, #557C93  100%);
   height:100vh;
   }
-  
-  .header {
+
+  .header .navbar{
+    height: 100px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 5%;
-  
+    align-items: center;
+    
   }
   
-  .logo {
-    max-width: 40%;
+  .navLogo img {
+    margin:15px;
+    
   }
-  
-  .ul {
-    display: flex;
-    text-decoration: none;
-    color: white;
+
+  .navToggle{
+    display:none;
+  } 
+
+  .navItems a{
+   size: 18px;  
+   margin:15px;
+   color:white;
+   text-decoration: none;
   }
+
   
   .menuInf {
     display:flex;
@@ -52,53 +60,61 @@
   }
   
   
-  @media screen and (max-width: 480px) {
+@media (max-width: 768px) {
 
-    .openMenu,
-    .closeMenu {
-      font-size: 1.25rem;
-      background: #03E682;
-      border: none;
-      width: 60px;
-      border-radius: 30px;
-      text-align: end;
-      padding-right: 5px;
-      cursor: pointer;
-    }
-    .openMenu {
-      color: white;
-      
-    }
-    .closeMenu {
-      color: white;
-      display: none; 
-    }
+ 
+.navItems {
+  background-color: #03E682;
+  border: 1px solid #03E682;
+  border-radius: 24px;
+  position:absolute;
+  top: 7%;
+  left:80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  transform: translateX(-800%);
+  
+}
 
-    .nav {
-      opacity: 0;
-      visibility: hidden;
-      display: flex;
-      flex-direction: column;
-      align-items: end;
-      gap: 1rem;
-      position: absolute;
-      top: 0%;
-      right: 0%;
-      background-color: rgba(8, 32, 62, 0);
-      padding: 2rem;
-      box-shadow: 0 0 0 100vmax;
-    }
+.navToggle{
+  display: flex;
+  flex-direction: column;
+  left:0;
+  background: #03E682;
+  height: 30%;
+  width: 15%; 
+  border: 1px solid #03E682;
+  border-radius: 24px;
+  margin: 5%;
+  cursor:pointer;
+ 
+}
 
-    .ul {
-      flex-direction: column;
-      align-items: end;
-    }
-  }
+.navToggle span{
+  display:flex;
+  width: 30%;
+  height: 15% ;
+  background: white;
+  border-radius: 22px;
+  margin-left: 50%;
+  margin-top: 3%;
+  
+}
 
-@media screen and (min-width: 480px){
+.close span{ 
+  transform: translate(0px 0px);
+}
+
+.open{
+  transform: translateX(0);
+}
+
+}
+@media screen and (min-width: 768px){
 
   body{
-    height: 130vh;
+    height:130vh;
   }
 
 }  

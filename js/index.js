@@ -1,6 +1,6 @@
-const nav = document.querySelector("#nav");
-const open = document.querySelector("#openMenu");
-const close = document.querySelector("#closeMenu");
+/*const nav = document.querySelector("#nav");
+const open = document.querySelector("#open");
+const close = document.querySelector("#close");
 
 open.addEventlistener("click", () => {
     nav.classList.add("visible");
@@ -9,3 +9,11 @@ open.addEventlistener("click", () => {
 close.addEventlistener("click", () =>{
     nav.classList.remove("visible")
 })
+*/
+
+toggle.onclick = () => {
+    items.classList.toggle("open");
+    items.classList.toggle("close");
+}
+
+
