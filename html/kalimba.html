@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,400;1,100&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../css/style-kalimba.css">
+	<script src="../js/kalimba.js"></script>
+	<title>Kalimba</title>
+</head>
+<body class="kalimba">
+	<section class="turn">
+		<h2>Please rotate your device</h2>
+	</section>
+	<section class="kalimba-keys">
+		<figure class="frame">
+			<div class="key" id="C5" onclick="playSound(this.id)" onpointerdown="activeKey(this.id)" onpointerup="inactiveKey(this.id)">
+				<p>C</p>
+			</div>
+		</figure>
+		<figure class="frame">
+			<div class="key" id="A" onclick="playSound(this.id)" onpointerdown="activeKey(this.id)" onpointerup="inactiveKey(this.id)">
+				<p>A</p>
+			</div>
+		</figure>
+		<figure class="frame">
+			<div class="key" id="F" onclick="playSound(this.id)" onpointerdown="activeKey(this.id)" onpointerup="inactiveKey(this.id)">
+				<p>F</p>
+			</div>
+		</figure>
+		<figure class="frame">
+			<div class="key" id="D" onclick="playSound(this.id)" onpointerdown="activeKey(this.id)" onpointerup="inactiveKey(this.id)">
+				<p>D</p>
+			</div>
+		</figure>
+		<figure class="frame">
+			<div class="key" id="C" onclick="playSound(this.id)" onpointerdown="activeKey(this.id)" onpointerup="inactiveKey(this.id)">
+				<p>C</p>
+			</div>
+		</figure>
+		<figure class="frame">
+			<div class="key" id="E" onclick="playSound(this.id)" onpointerdown="activeKey(this.id)" onpointerup="inactiveKey(this.id)">
+				<p>E</p>
+			</div>
+		</figure>
+		<figure class="frame">
+			<div class="key" id="G" onclick="playSound(this.id)" onpointerdown="activeKey(this.id)" onpointerup="inactiveKey(this.id)">
+				<p>G</p>
+			</div>
+		</figure>
+		<figure class="frame">
+			<div class="key" id="B" onclick="playSound(this.id)" onpointerdown="activeKey(this.id)" onpointerup="inactiveKey(this.id)">
+				<p>B</p>
+			</div>
+		</figure>
+	</section>
+	<figure class="logo-kalimba">
+		<img src="../resources/imgs/logo.png" alt="site-logo" />
+	</figure>
+	<table class="legend">
+		<tr>
+			<th>Keyboard map</th>
+		</tr>
+		<tr>
+			<td>C = KeyboardA</td>
+		</tr>
+		<tr>
+			<td>A = KeyboardS</td>
+		</tr>
+		<tr>
+			<td>F = KeyboardD</td>
+		</tr>
+		<tr>
+			<td>D = KeyboardF</td>
+		</tr>
+		<tr>
+			<td>C = KeyboardG</td>
+		</tr>
+		<tr>
+			<td>E = KeyboardH</td>
+		</tr>
+		<tr>
+			<td>G = KeyboardJ</td>
+		</tr>
+		<tr>
+			<td>B = KeyboardK</td>
+		</tr>
+	</table>
+	<script>keyboardListener()</script>
+</body>
+</html>
