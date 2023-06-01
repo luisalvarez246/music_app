@@ -4,10 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Jungle Drums</title>
+    <link rel="stylesheet" href="../css/jungle.css">
+	<script src="../js/jungle.js"></script>
 </head>
 <body>
     <header></header>
-    <main></main>
+    <main>
+        <section>
+            <figure class="jungleDrum">
+                <div class="drum" id="monkey" onclick="playSound(this.id)" onpointerdown="activeKey(this.id)" onpointerup="inactiveKey(this.id)">
+                    <p>C</p>
+                </div>
+            </figure>
+            <figure class="jungleDrum">
+                <div class="drum" id="elephant" onclick="playSound(this.id)" onpointerdown="activeKey(this.id)" onpointerup="inactiveKey(this.id)">
+                    <p>A</p>
+                </div>
+            </figure>
+            <figure class="jungleDrum">
+                <div class="drum" id="tiger" onclick="playSound(this.id)" onpointerdown="activeKey(this.id)" onpointerup="inactiveKey(this.id)">
+                    <p>F</p>
+                </div>
+            </figure>
+            <figure class="jungleDrum">
+                <div class="drum" id="toucan" onclick="playSound(this.id)" onpointerdown="activeKey(this.id)" onpointerup="inactiveKey(this.id)">
+                    <p>D</p>
+                </div>
+            </figure>
+        </section>
+    </main>
+    <script>keyboardListener()</script>
 </body>
 </html>

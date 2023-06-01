@@ -1,0 +1,13 @@
+body {
+    background-image: url("./../../resources/images/jungleBackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+}
