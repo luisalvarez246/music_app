@@ -5,12 +5,44 @@ body {
   background-attachment: fixed;
 }
 
+#title {
+  background-image: url("./../../resources/imgs/jungledrums morado.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100px;
+}
+
 #monkey {
   border-radius: 50%;
   height: 120px;
   width: 120px;
   background-size: cover;
-  background-image: url("./../resources/imgs/monkey.png");
+  background-image: url("./../../resources/imgs/monkey.png");
+}
+
+#elephant {
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  background-size: cover;
+  background-image: url("./../../resources/imgs/elephant.png");
+}
+
+#tiger {
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  background-size: cover;
+  background-image: url("./../../resources/imgs/tiger.png");
+}
+
+#toucan {
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  background-size: cover;
+  background-image: url("./../resources/imgs/toucan.png");
 }
 
 /*# sourceMappingURL=jungle.css.map */

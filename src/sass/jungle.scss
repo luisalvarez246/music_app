@@ -7,8 +7,30 @@ body {
     background-attachment: fixed;
 }
 
+#title {
+    background-image: url("./../../resources/imgs/jungledrums\ morado.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+}
+
 #monkey {
     @include animalCircle;
-    background-image: url("./../resources/imgs/monkey.png");
+    background-image: url("./../../resources/imgs/monkey.png");
 }
-  
+
+#elephant {
+    @include animalCircle;
+    background-image: url("./../../resources/imgs/elephant.png");
+}
+
+#tiger {
+    @include animalCircle;
+    background-image: url("./../../resources/imgs/tiger.png");
+}
+
+#toucan {
+    @include animalCircle;
+    background-image: url("./../resources/imgs/toucan.png");
+}
