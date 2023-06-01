@@ -5,11 +5,12 @@ body {
   background-attachment: fixed;
 }
 
-div {
+#monkey {
   border-radius: 50%;
-  height: 100px;
-  width: 100px;
-  background-color: yellow;
+  height: 120px;
+  width: 120px;
+  background-size: cover;
+  background-image: url("./../resources/imgs/monkey.png");
 }
 
 /*# sourceMappingURL=jungle.css.map */
