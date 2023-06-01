@@ -1,6 +1,6 @@
 
 .body-drum{
-    background-image: url(./resources/wood_bg.svg);
+    background-image: url(../resources/imgs/wood_bg.svg);
 }
 .main {
     display: flex;
