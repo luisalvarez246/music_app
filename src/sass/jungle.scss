@@ -1,7 +1,7 @@
 @import '_variables.scss';
 
 body {
-    background-image: url("./../../resources/images/jungleBackground.jpg");
+    background-image: url("./../../resources/imgs/jungleBackground.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -33,4 +33,30 @@ body {
 #toucan {
     @include animalCircle;
     background-image: url("./../resources/imgs/toucan.png");
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#title {
+    margin: auto;
+    height: 280px;
+    width: 280px;
+}
+
+#jungleDrums {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+}
+
+
+p {
+    color: white;
+    border-radius: 50%;
 }

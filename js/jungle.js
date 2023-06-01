@@ -10,90 +10,53 @@ const	inactiveKey = (id) =>
 
 const	playSound = (id) =>
 {
-	let	note = new Audio(`../resources/sounds/kalimba/${id}.mp3`);
+	let	note = new Audio(`../resources/sounds/jungle/${id}.mp3`);
 
 	note.play();
 }
 
 const	ftKeyDown = (code) =>
 {
-	if (code === "KeyA")
+	if (code === "KeyE")
 	{
-		playSound("C5");
-		activeKey("C5");
-	}
-	else if (code === "KeyS")
-	{
-		playSound("A");
-		activeKey("A");
-	}
-	else if (code === "KeyD")
-	{
-		playSound("F");
-		activeKey("F");
+		playSound("monkeySound");
+		activeKey("monkeySound");
 	}
 	else if (code === "KeyF")
 	{
-		playSound("D");
-		activeKey("D");
+		playSound("tigerSound");
+		activeKey("F");
 	}
-	else if (code === "KeyG")
+	else if (code === "KeyI")
 	{
-		playSound("C");
-		activeKey("C");
-	}
-	else if (code === "KeyH")
-	{
-		playSound("E");
-		activeKey("E");
+		playSound("elephantSound");
+		activeKey("I");
 	}
 	else if (code === "KeyJ")
 	{
-		playSound("G");
-		activeKey("G");
-	}
-	else if (code === "KeyK")
-	{
-		playSound("B");
-		activeKey("B");
+		playSound("toucanSound");
+		activeKey("J");
 	}
 }
 
 const	ftKeyUp = (code) =>
 {
-	if (code === "KeyA")
-	{
-		inactiveKey("C5");
-	}
-	else if (code === "KeyS")
-	{
-		inactiveKey("A");
-	}
-	else if (code === "KeyD")
+	if (code === "KeyE")
 	{
 		inactiveKey("F");
 	}
 	else if (code === "KeyF")
 	{
-		inactiveKey("D");
-	}
-	else if (code === "KeyG")
-	{
-		inactiveKey("C");
-	}
-	else if (code === "KeyH")
-	{
 		inactiveKey("E");
+	}
+	else if (code === "KeyI")
+	{
+		inactiveKey("J");
 	}
 	else if (code === "KeyJ")
 	{
-		inactiveKey("G");
+		inactiveKey("I");
 	}
-	else if (code === "KeyK")
-	{
-		inactiveKey("B");
-	}
-
 }
 
 const	keyboardListener = () =>
