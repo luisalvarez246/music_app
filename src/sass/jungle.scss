@@ -15,6 +15,10 @@ body {
     width: 100px;
 }
 
+img {
+    @include animalCircle;
+}
+
 #monkey {
     @include animalCircle;
     background-image: url("./../../resources/imgs/monkey.png");
@@ -28,10 +32,12 @@ body {
 #tiger {
     @include animalCircle;
     background-image: url("./../../resources/imgs/tiger.png");
+    
 }
 
 #toucan {
     @include animalCircle;
+    @include flex;
     background-image: url("./../resources/imgs/toucan.png");
 }
 

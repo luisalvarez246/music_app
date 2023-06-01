@@ -13,11 +13,22 @@ body {
   width: 100px;
 }
 
+img {
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
 #monkey {
   border-radius: 50%;
   height: 120px;
   width: 120px;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
   background-image: url("./../../resources/imgs/monkey.png");
 }
 
@@ -25,7 +36,9 @@ body {
   border-radius: 50%;
   height: 120px;
   width: 120px;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
   background-image: url("./../../resources/imgs/elephant.png");
 }
 
@@ -33,7 +46,9 @@ body {
   border-radius: 50%;
   height: 120px;
   width: 120px;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
   background-image: url("./../../resources/imgs/tiger.png");
 }
 
@@ -41,7 +56,12 @@ body {
   border-radius: 50%;
   height: 120px;
   width: 120px;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url("./../resources/imgs/toucan.png");
 }
 
