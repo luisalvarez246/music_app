@@ -66,8 +66,15 @@ main {
 }
 
 p {
-  color: white;
+  font-family: monospace;
+  color: yellow;
+  font-size: 2.2em;
+  font-weight: 900;
+  margin-left: 36%;
+  background-color: deeppink;
   border-radius: 50%;
+  width: fit-content;
+  padding: 5% 10%;
 }
 
 /*# sourceMappingURL=jungle.css.map */
