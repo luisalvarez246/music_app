@@ -1,11 +1,26 @@
 const	activeKey = (id) =>
 {
-	document.getElementById(id).style.backgroundImage = "url('../resources/imgs/kalimba_key_active.png')";
+	document.getElementById(id).style.backgroundImage = "url('./../resources/imgs/exclamation.jpg')";
 }
 
 const	inactiveKey = (id) =>
 {
-	document.getElementById(id).style.backgroundImage = "url('../resources/imgs/kalimba_key.png')";
+	if (id === "monkey")
+	{
+		document.getElementById(id).style.backgroundImage = "url('./../resources/imgs/monkey.png')";
+	}
+	else if (id === "elephant")
+	{
+		document.getElementById(id).style.backgroundImage = "url('./../resources/imgs/elephant.png')";
+	}
+	else if (id === "tiger")
+	{
+		document.getElementById(id).style.backgroundImage = "url('./../resources/imgs/tiger.png')";
+	}
+	else if (id === "toucan")
+	{
+		document.getElementById(id).style.backgroundImage = "url('./../resources/imgs/toucan.png')";
+	}
 }
 
 const	playSound = (id) =>
@@ -20,22 +35,22 @@ const	ftKeyDown = (code) =>
 	if (code === "KeyE")
 	{
 		playSound("monkeySound");
-		activeKey("monkeySound");
+		activeKey("monkey");
 	}
 	else if (code === "KeyF")
 	{
 		playSound("tigerSound");
-		activeKey("F");
+		activeKey("tiger");
 	}
 	else if (code === "KeyI")
 	{
 		playSound("elephantSound");
-		activeKey("I");
+		activeKey("elephant");
 	}
 	else if (code === "KeyJ")
 	{
 		playSound("toucanSound");
-		activeKey("J");
+		activeKey("toucan");
 	}
 }
 
@@ -43,19 +58,19 @@ const	ftKeyUp = (code) =>
 {
 	if (code === "KeyE")
 	{
-		inactiveKey("F");
+		inactiveKey("monkey");
 	}
 	else if (code === "KeyF")
 	{
-		inactiveKey("E");
+		inactiveKey("tiger");
 	}
 	else if (code === "KeyI")
 	{
-		inactiveKey("J");
+		inactiveKey("elephant");
 	}
 	else if (code === "KeyJ")
 	{
-		inactiveKey("I");
+		inactiveKey("toucan");
 	}
 }
 
