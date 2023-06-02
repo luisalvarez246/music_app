@@ -11,10 +11,10 @@ close.addEventlistener("click", () =>{
 })
 */
 
-toggle.onclick = () => {
-    items.classList.toggle("open");
-    items.classList.toggle("close");
-}
+// toggle.onclick = () => {
+//     items.classList.toggle("open");
+//     items.classList.toggle("close");
+// }
 
 export const goToPage = (url) => {
     window.location.href = url;
