@@ -7,3 +7,7 @@ document.getElementById("drumButton").addEventListener("click", (event) => {
 document.getElementById("kalimbaButton").addEventListener("click", (event) => {
     goToPage("./../html/kalimba.html")
 })
+
+document.getElementById("jungleButton").addEventListener("click", (event) => {
+    goToPage("./../html/jungle.html")
+})

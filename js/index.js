@@ -16,4 +16,6 @@ toggle.onclick = () => {
     items.classList.toggle("close");
 }
 
-
+export const goToPage = (url) => {
+    window.location.href = url;
+}
