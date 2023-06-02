@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/drum-landing.css">
+    <title>Drums</title>
+</head>
+<body class="body-drum">
+<main class="main">
+    <figure class="main-figure">
+        <figure class="main-figure-div">
+            <img id="hi-hat" onclick="playSound(this.id)" onpointerdown="activeKey(this.id)" onpointerup="inactiveKey(this.id)" class= "hi-hat" src="../resources/imgs/hi-hat.png" alt="hi-hat">
+            <img id="tom" onclick="playSound(this.id)" onpointerdown="activeKey(this.id)" onpointerup="inactiveKey(this.id)" class= "tom1" src="../resources/imgs/tom.png" alt="tom">
+         <figure class="bass-drum-div">
+            <img id="tom1" onclick="playSound(this.id)" onpointerdown="activeKey(this.id)" onpointerup="inactiveKey(this.id)" class= "tom3" src="../resources/imgs/tom1.png" alt="tom">
+            <img id="tom2" onclick="playSound(this.id)" onpointerdown="activeKey(this.id)" onpointerup="inactiveKey(this.id)"class= "tom2" src="../resources/imgs/tom2.png" alt="tom">
+            <img id="roll" onclick="playSound(this.id)" onpointerdown="activeKey(this.id)" onpointerup="inactiveKey(this.id)"class= "bass-drum" src="../resources/imgs/roll.png" alt="bas_drum">
+        </figure>
+            <img id="tom3" onclick="playSound(this.id)" onpointerdown="activeKey(this.id)" onpointerup="inactiveKey(this.id)"class= "tom4" src="../resources/imgs/tom3.png" alt="tom">
+        <figure class= "snare-div">
+            <img id="crash" onclick="playSound(this.id)" onpointerdown="activeKey(this.id)" onpointerup="inactiveKey(this.id)"class= "hi-hat2" src="../resources/imgs/crash.png" alt="hi_hat">
+            <img id="tom4" onclick="playSound(this.id)" onpointerdown="activeKey(this.id)" onpointerup="inactiveKey(this.id)"class= "snare" src="../resources/imgs/tom4.png" alt="snare"> 
+        </figure>    
+        </figure>
+    </figure>
+</main>
+<script src="../js/drums.js"></script>
+<script>keyboardListener()</script>
+</body>
+</html>
