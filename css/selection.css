@@ -14,7 +14,7 @@ h3, .p1 {
   font-family: "Fira Sans", sans-serif;
 }
 
-#drumButton, #kalimbaButton {
+#drumButton, #kalimbaButton, #jungleButton {
   border-radius: 50%;
   width: 100px;
   height: 100px;
