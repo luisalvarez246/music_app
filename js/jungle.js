@@ -7,19 +7,27 @@ const	inactiveKey = (id) =>
 {
 	if (id === "monkey")
 	{
-		document.getElementById(id).style.backgroundImage = "url('./../resources/imgs/monkey.png')";
+		setTimeout(() => {
+			document.getElementById(id).style.backgroundImage = "url('./../resources/imgs/monkey.png')";			
+		}, 3000);
 	}
 	else if (id === "elephant")
 	{
-		document.getElementById(id).style.backgroundImage = "url('./../resources/imgs/elephant.png')";
+		setTimeout(() => {
+			document.getElementById(id).style.backgroundImage = "url('./../resources/imgs/elephant.png')";			
+		}, 3000);
 	}
 	else if (id === "tiger")
 	{
-		document.getElementById(id).style.backgroundImage = "url('./../resources/imgs/tiger.png')";
+		setTimeout(() => {
+			document.getElementById(id).style.backgroundImage = "url('./../resources/imgs/tiger.png')";			
+		}, 3000);
 	}
 	else if (id === "toucan")
 	{
-		document.getElementById(id).style.backgroundImage = "url('./../resources/imgs/toucan.png')";
+		setTimeout(() => {
+			document.getElementById(id).style.backgroundImage = "url('./../resources/imgs/toucan.png')";			
+		}, 3000);
 	}
 }
 
