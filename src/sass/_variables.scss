@@ -15,6 +15,7 @@ $background: linear-gradient(#0A2F44, #557C93);
     background-color: $bgColor;
     color: $textColor;
     font-weight: $weight;
+    font-family: "Fira Sans", sans-serif;
 }
 
 @mixin instrumentButton () {
