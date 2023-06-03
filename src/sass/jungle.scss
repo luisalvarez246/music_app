@@ -7,16 +7,25 @@ body {
     background-attachment: fixed;
 }
 
+// #logo {
+//     position: absolute;
+//     width: 150px;
+//     background-color: black;
+//     border-radius: 8px;
+//     padding: 1%;
+// }
+
+#back {
+     @include buttonStyles (white, black, bold);
+     position: absolute;     
+}
+
 #title {
     background-image: url("./../../resources/imgs/jungledrums\ morado.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100px;
     width: 100px;
-}
-
-img {
-    @include animalCircle;
 }
 
 #monkey {
@@ -59,12 +68,11 @@ main {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
-    gap: 80px;
 }
 
-@media only screen and (max-width: 479px) {
+@media only screen and (min-width: 480px) {
     #jungleDrums {
-        gap: 0px;
+        gap: 64px;
     }
 }
 
