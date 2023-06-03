@@ -4,6 +4,11 @@ h3, .p1 {
     @include whiteText (1.2rem, bolder);
 }
 
+#jungleText {
+    color: yellow;
+    text-shadow: 1px 1px 1px deeppink;
+}
+
 .p2 {
     @include whiteText (1rem, normal);
 }

@@ -6,6 +6,11 @@ h3, .p1 {
   font-family: "Fira Sans", sans-serif;
 }
 
+#jungleText {
+  color: yellow;
+  text-shadow: 1px 1px 1px deeppink;
+}
+
 .p2 {
   font-size: 1rem;
   font-weight: normal;
