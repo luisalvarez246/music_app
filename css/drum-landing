@@ -1,19 +1,3 @@
-.body-drum{
-    background-image: url(../resources/imgs/wood_bg.svg);
-}
-.main {
-    display: flex;
-    align-items: stretch;
-    height: 110vh;
-    justify-content: center;
-    padding-right: 10%;
-}
-.logo {
-	width: 15%;
-	margin: 2rem;
-	position: fixed;
-    bottom: 0;
-}
 
 .hi-hat{
     height: 20%;
@@ -25,29 +9,29 @@
     justify-content: center;
 }
 .tom1{
-    height: 20%;
+    height:40%;
     width: 15%;
     padding-top: 32%;
 }
 .tom2{
-    width: 72%;
-    height: 60%;
-    padding-bottom: 10%;
+    width: 80%;
+    height: 90%;
+    padding-bottom: 5%;
 }
 .tom3{
-    height: 70%;
-    width: 72%;
+    height: 100%;
+    width: 80%;
     padding-left: 55%;
-    padding-top: 10%;
+    padding-top: 6%;
 }
 .tom4{
-    height: 25%;
-    width: 15.5%;
+    height: 100%;
+    width: 15.2%;
     padding-top: 16.5%;
 }
 .bass-drum{
     height: 100%;
-    width: 100%;
+    width: 120%;
     padding-left: 40%;
 }
 .bass-drum-div{
@@ -69,18 +53,4 @@
     padding-right: 1%;
     display: flex;
     flex-direction: column ;
-}
-.ul{
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    margin: 1rem;
-    color: white
-}
-.turn{
-    color: antiquewhite;
-    display: flex;
-    text-align: center;
-    padding-top: 100%;
-    padding-left: 10%;
 }
