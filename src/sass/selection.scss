@@ -4,18 +4,22 @@ h3, .p1 {
     @include whiteText (1.2rem, bolder);
 }
 
+#jungleText {
+    color: chartreuse;
+    text-shadow: 1px 1px 1px deeppink;
+}
+
 .p2 {
     @include whiteText (1rem, normal);
 }
 
-#drumButton, #kalimbaButton {
+#drumButton, #kalimbaButton, #jungleButton {
     @include instrumentButton;
  }
 
 #pricing {
     @include buttonStyles (white, black, 900);
 }
-
 
 body {
     background: $background;
