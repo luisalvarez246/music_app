@@ -10,21 +10,27 @@
 </head>
 <body>
     <header>
-        <img src="./../resources/images/logo-64678ab05fa64570721875.png" alt="Logo">
+        <img src="./../resources/imgs/logo.png" alt="Logo" onclick="window.location.href='./../index.html';">
         <h3>Choose your instrument</h3>
     </header>
     <main>
         <div>
-            <button id="drumButton">
-                <img class="circleImg" src="./../resources/images/drums.jpg" alt="Drums">
+            <button id="drumButton" onclick="window.location.href='./drums.html';">
+                <img class="circleImg" src="./../resources/imgs/drums.jpg" alt="Drums">
             </button>
             <p class="p1">Drums</p>
         </div>
         <div>
-            <button id="kalimbaButton">
-                <img class="circleImg" src="./../resources/images/kalimba.jpg" alt="Kalimba">
+            <button id="kalimbaButton" onclick="window.location.href='./kalimba.html';">
+                <img class="circleImg" src="./../resources/imgs/kalimba.jpg" alt="Kalimba">
             </button>
             <p class="p1">Kalimba</p>
+        </div>
+        <div>
+            <button id="jungleButton" onclick="window.location.href='./jungle.html';">
+                <img class="circleImg" src="./../resources/imgs/jungleBackground.jpg" alt="Jungle Drums">
+            </button>
+            <p class="p1" id="jungleText">Jungle Drums</p>
         </div>
     </main>
     <footer>
@@ -32,6 +38,5 @@
         <p class="p2">Play millions of songs ad-free, on demand, and offline.</p>
         <button id="pricing">SEE PRICING</button>
     </footer>   
-    <script src="./../js/selection.js" type="module"></script>
 </body>
 </html>
