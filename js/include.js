@@ -21,3 +21,17 @@ function includeHTML() {
 	}
   }
   
+  const	playSound = (id) =>
+{
+	let	note = new Audio(`./resources/sounds/drums/${id}.wav`);
+
+	note.play();
+}
+const	activeKey = (id) =>
+{
+	document.getElementById(id).src = `./resources/imgs/${id}-A.png`;
+}
+const	inactiveKey = (id) =>
+{
+	document.getElementById(id).src = `./resources/imgs/${id}.png`;	
+}
