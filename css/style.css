@@ -101,10 +101,10 @@
     padding-block-end: 3%;
   }
   .drum-landing{
-    width: 112%;
+    width: 100%;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 700px) {
 
  
     .navItems {
@@ -156,17 +156,14 @@
     .menuInf{
       display: flex;
       flex-direction: column;
-      background-color: #557C93;
     }
     
     }
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 700px){
     
       body{
         height:130vh;
       }
     
     }  
-    @media (max-width: 768px) {
 
-    }
