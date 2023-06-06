@@ -6,11 +6,6 @@ h3, .p1 {
   font-family: "Fira Sans", sans-serif;
 }
 
-#jungleText {
-  color: chartreuse;
-  text-shadow: 1px 1px 1px deeppink;
-}
-
 .p2 {
   font-size: 1rem;
   font-weight: normal;
@@ -19,7 +14,7 @@ h3, .p1 {
   font-family: "Fira Sans", sans-serif;
 }
 
-#drumButton, #kalimbaButton, #jungleButton {
+#drumButton, #kalimbaButton {
   border-radius: 50%;
   width: 100px;
   height: 100px;

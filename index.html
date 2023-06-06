@@ -7,11 +7,14 @@
     <title>MUSIC APP</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"> 
     <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/index.js"></script>
+    <script src="./js/include.js"></script>
+    <script src="./js/drums.js"></script>
 </head>   
 <body>
     <header class="header">
         <nav class="navbar">
-            <div class="navLogo"><img src="./resources/images/logo-64678ab05fa64570721875.png" ></div>
+            <div class="navLogo"><img src="./resources/imgs/logo.png"></div>
             <div class="navItems" id="items">
                   <a href="#">Premium</a>
                   <a href="#">Sign Up</a>
@@ -27,19 +30,31 @@
         </nav>
     </header>
     <main>
-    <section class="menuInf">
-        <div class="text">
-            <img src="./img/Photo1.png" class="Photo1">
-            <h2>Music for everyone</h2>
-            <p>Millions of songs. No credit card needed</p>
+    <aside>
+        <section class="menuInf">
+        <div class="landingDivText">
+            <div class="text">
+                <h2>Music for everyone.</h2>
+                    <p>Millions of songs. No credit card needed</p>
+            </div>
+            <div class="buttonHit"></div>
+                <button class="hitMe">HIT ME</button> 
+            </div>
         </div>
-        <div class="buttonHit"></div>
-            <button class="hitMe"> 
-                <p>Hit me</p>
-            </button> 
-        </div>
-    </section>
-</main>
-    <script defer src="./js/index.js"></script>
+            <figure class="landing-figure">
+                <div class="drum-landing" w3-include-html="./html/drum-landing.html"></div>
+            </figure>
+        </section>
+    </aside>
+    </main>
+<footer class="footer-landing">
+    <div class="footer-landing-div">
+        <div class="textFooter"></div>
+            <h3>Try Premium free for 1 month</h3>
+            <p>Play millions of songs ad-free, on demand, and offline.</p>
+        <button class="footer-landing-button">SEE PRICING</button>
+    </div> 
+</footer>   
+    <script>includeHTML();</script>
 </body>
 </html>
