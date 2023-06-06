@@ -1,3 +1,4 @@
+
 .body-drum{
     background-image: url(../resources/imgs/wood_bg.svg);
 }
@@ -49,6 +50,7 @@
     height: 100%;
     width: 100%;
     padding-left: 40%;
+     
 }
 .bass-drum-div{
     display: flex;
