@@ -21,17 +21,17 @@ function includeHTML() {
 	}
   }
   
-  const	playSound = (id) =>
+  const	playSoundHome = (id) =>
 {
 	let	note = new Audio(`./resources/sounds/drums/${id}.wav`);
 
 	note.play();
 }
-const	activeKey = (id) =>
+const	activeKeyHome = (id) =>
 {
 	document.getElementById(id).src = `./resources/imgs/${id}-A.png`;
 }
-const	inactiveKey = (id) =>
+const	inactiveKeyHome = (id) =>
 {
 	document.getElementById(id).src = `./resources/imgs/${id}.png`;	
 }
