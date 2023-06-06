@@ -6,11 +6,11 @@ const	playSound = (id) =>
 }
 const	activeKey = (id) =>
 {
-	document.getElementById(id).src = `./resources/imgs/${id}-A.png`;
+	document.getElementById(id).src = `../resources/imgs/${id}-A.png`;
 }
 const	inactiveKey = (id) =>
 {
-	document.getElementById(id).src = `./resources/imgs/${id}.png`;	
+	document.getElementById(id).src = `../resources/imgs/${id}.png`;	
 }
 const	ftKeyDown = (code) =>
 {

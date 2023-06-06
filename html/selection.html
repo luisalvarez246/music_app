@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose your instrument</title>
+    <link rel="stylesheet" href="./../css/selection.css">
+    <link href='https://fonts.googleapis.com/css?family=Fira Sans' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <img src="./../resources/imgs/logo.png" alt="Logo" onclick="window.location.href='./../index.html';">
+        <h3>Choose your instrument</h3>
+    </header>
+    <main>
+        <div>
+            <button id="drumButton" onclick="window.location.href='./drums.html';">
+                <img class="circleImg" src="./../resources/imgs/drums.jpg" alt="Drums">
+            </button>
+            <p class="p1">Drums</p>
+        </div>
+        <div>
+            <button id="kalimbaButton" onclick="window.location.href='./kalimba.html';">
+                <img class="circleImg" src="./../resources/imgs/kalimba.jpg" alt="Kalimba">
+            </button>
+            <p class="p1">Kalimba</p>
+        </div>
+        <div>
+            <button id="jungleButton" onclick="window.location.href='./jungle.html';">
+                <img class="circleImg" src="./../resources/imgs/jungleBackground.jpg" alt="Jungle Drums">
+            </button>
+            <p class="p1" id="jungleText">Jungle Drums</p>
+        </div>
+    </main>
+    <footer>
+        <h3>Try Premium free for 1 month</h3>
+        <p class="p2">Play millions of songs ad-free, on demand, and offline.</p>
+        <button id="pricing">SEE PRICING</button>
+    </footer>   
+</body>
+</html>

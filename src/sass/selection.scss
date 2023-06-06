@@ -1,0 +1,61 @@
+@import '_variables.scss';
+
+h3, .p1 {
+    @include whiteText (1.2rem, bolder);
+}
+
+.p2 {
+    @include whiteText (1rem, normal);
+}
+
+#drumButton, #kalimbaButton {
+    @include instrumentButton;
+ }
+
+#pricing {
+    @include buttonStyles (white, black, 900);
+}
+
+
+body {
+    background: $background;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header, div, footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+}
+
+header {
+    margin-top: 5%;
+}
+
+.circleImg {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+@media only screen and (min-width: 480px) {
+    main {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        gap: 120px;
+        padding: 3%;
+    }
+
+    header h3 {
+        font-size: 2.5rem;
+    }
+
+    footer h3 {
+        font-size: 1.8rem;
+    }
+}

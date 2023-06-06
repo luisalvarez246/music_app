@@ -1,0 +1,27 @@
+$background: linear-gradient(#0A2F44, #557C93);
+
+@mixin whiteText ($size, $weight) {
+    font-size: $size;
+    font-weight: $weight;
+    text-align: center;
+    color: white;  
+    font-family: "Fira Sans", sans-serif;
+}
+
+@mixin buttonStyles ($bgColor, $textColor, $weight) {
+    border-radius: 24px;
+    width: fit-content;
+    padding: 12px 16px;
+    background-color: $bgColor;
+    color: $textColor;
+    font-weight: $weight;
+}
+
+@mixin instrumentButton () {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
